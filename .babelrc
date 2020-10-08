@@ -1,0 +1,16 @@
+{
+    "presets": ["@babel/preset-env"],
+    "plugins": [
+      ["module-resolver", {
+        "alias": {
+          "@app": "./src/app",
+          "@models": "./src/app/models",
+          "@utils": "./src/app/utils",
+          "@directives": "./src/app/directives",
+          "@resolvers": "./src/app/resolvers"
+        }
+      }],
+      ["@babel/plugin-transform-runtime"],
+      ["@babel/plugin-transform-modules-commonjs"]
+    ]
+  }
