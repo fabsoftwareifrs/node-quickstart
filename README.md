@@ -13,6 +13,7 @@ In Windows is recomended to use [winget cli](https://github.com/microsoft/winget
 winget install -e --id OpenJS.Nodejs
 winget install -e --id MariaDB.Server
 ```  
+
 #### In Linux
 
  Everything can be installed using your distro package manager, for Debian or Ubuntu would it be:
@@ -30,7 +31,7 @@ winget install -e --id MariaDB.Server
 
  The installation will prompt some questions about your database configuration, read them carefuly and answer them properly, them will have it all set.
 
-### Start
+### Start the project
 1. Clone this repo
 ```bash
 git clone https://github.com/fabsoftwareifrs/node-quickstart.git
@@ -55,7 +56,7 @@ code .env
 **.env**
 ```
 # API Domínio
-URL_API=localhost:5000
+URL_API=localhost:4000
 
 # Banco de Dados
 DB_HOSTNAME=localhost
@@ -81,15 +82,17 @@ MariaDB [(none)]> CREATE DATABASE mydatabase CHARACTER SET utf8mb4 COLLATE utf8m
 MariaDB [(none)]> exit;
 ```
 
-6. Migrate the database:
+6. install all dependencies
+```bash
+npm i
+```
+
+7. Migrate the database:
 ```
 npx sequelize-cli db:migrate
 ```
 
-7. install all dependencies
-```bash
-npm i
-```
+
 8. start the project
 
 **Terminal 1**:
@@ -100,10 +103,14 @@ npm run watch:src
 ```
 npm run watch:dist
 ```
-go to URL http://localhost:5000 in your browser and if you see 'IFRS API' on it everything is working! Enjoy!
+go to URL http://localhost:4000/graphql in your browser and if you see GraphQL prompt on it everything is working! Enjoy!
 
-## DEV
-Comands and another details.
+## Authors
+
+- **Thyago Salvá** - [Github](https://github.com/Salvah)
+- **Maurício Covolan Rosito** - [Github](https://github.com/mauriciorostio)
+- **Leonardo Alvarenga Pereira** - [Github](https://github.com/leonardoalvarengapereira)
+- **Camilo Cunha de Azevedo** - [Github](https://github.com/Camilotk)
 
 ## License
 MIT

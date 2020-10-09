@@ -99,3 +99,13 @@ npm run watch:src
 ```
 npm run watch:dist
 ```
+vá para a URL http://localhost:4000/graphql em seu navegador e se ver a ferramenta de queries do GraaphQL tudo funcionou corretamente! Aproveite!
+
+## Autores
+- **Thyago Salvá** - [Github](https://github.com/Salvah)
+- **Maurício Covolan Rosito** - [Github](https://github.com/mauriciorostio)
+- **Leonardo Alvarenga Pereira** - [Github](https://github.com/leonardoalvarengapereira)
+- **Camilo Cunha de Azevedo** - [Github](https://github.com/Camilotk)
+
+## Licença
+MIT
