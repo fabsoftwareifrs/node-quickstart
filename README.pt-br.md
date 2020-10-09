@@ -1,4 +1,6 @@
 # Quickstart
+<div style="text-align: right;">[<a href="https://github.com/fabsoftwareifrs/node-quickstart/blob/main/README.md">🇺🇸 EN</a> |<a href="https://github.com/fabsoftwareifrs/node-quickstart/blob/main/README.pt-br.md">🇧🇷 PT-BR</a>]</div>
+
 Essa é uma estrutura de projeto básica de Node.js com Sequelize, Apollo, MySQL, webpack, babel, JWT, express e ESLint (standart js).
 
 ## Como rodar
