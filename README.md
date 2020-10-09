@@ -110,7 +110,7 @@ go to URL http://localhost:4000/graphql in your browser and if you see GraphQL p
 ## Authors
 
 - **Thyago Salvá** - [Github](https://github.com/Salvah)
-- **Maurício Covolan Rosito** - [Github](https://github.com/mauriciorostio)
+- **Maurício Covolan Rosito** - [Github](https://github.com/mauriciorosito)
 - **Leonardo Alvarenga Pereira** - [Github](https://github.com/leonardoalvarengapereira)
 - **Camilo Cunha de Azevedo** - [Github](https://github.com/Camilotk)
 

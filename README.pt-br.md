@@ -105,7 +105,7 @@ vá para a URL http://localhost:4000/graphql em seu navegador e se ver a ferrame
 
 ## Autores
 - **Thyago Salvá** - [Github](https://github.com/Salvah)
-- **Maurício Covolan Rosito** - [Github](https://github.com/mauriciorostio)
+- **Maurício Covolan Rosito** - [Github](https://github.com/mauriciorosito)
 - **Leonardo Alvarenga Pereira** - [Github](https://github.com/leonardoalvarengapereira)
 - **Camilo Cunha de Azevedo** - [Github](https://github.com/Camilotk)
 
