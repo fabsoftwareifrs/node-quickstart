@@ -83,6 +83,7 @@ npx sequelize-cli db:migrate
 ```
 
 6. inicie o projeto
+
 **Terminal 1**:
 ```bash
 npm run watch:src
