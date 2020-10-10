@@ -36,23 +36,13 @@ Tudo o que é necessário pode ser instalado utilizando o gerenciador de pacotes
  ### Iniciando o projeto
  1. Clone o repositório
  ```bash
-git clone https://github.com/fabsoftwareifrs/node-quickstart.git
+git clone https://github.com/fabsoftwareifrs/node-quickstart.git meuprojeto
 ```
-2. Entre na pasta do projeto e delete a pasta oculta .git
+2. Entre na pasta do projeto e delete a pasta oculta .git e crie o arquivo .env
 ```bash
-cd node-quickstart
+cd meuprojeto
 rm -Rf .git
-```
-3. Renomeie a pasta
-```bash
-cd ..
-mv node-quickstart nomedoseuprojeto
-```
-4. Entre na pasta e crie o arquivo .env
-```bash
-cd nomedoseuprojeto
 cp .env.example .env
-code .env
 code .env
 ```
 **.env**
@@ -74,7 +64,7 @@ EMAIL_SERVICE=
 EMAIL_USER=
 EMAIL_PASSWORD=
 ```
-5. Crie seu banco:
+3. Crie seu banco:
 ```bash 
 mysql -u root -p # entre a senha do seu usuário
 ```
@@ -82,17 +72,17 @@ mysql -u root -p # entre a senha do seu usuário
 MariaDB [(none)]> CREATE DATABASE nomedoseubanco CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 MariaDB [(none)]> exit;
 ```
-6. instale todas as dependências
+4. instale todas as dependências
 ```bash
 npm i
 ```
 
-7. Migre o banco de dados
+5. Migre o banco de dados
 ```
 npx sequelize-cli db:migrate
 ```
 
-8. inicie o projeto
+6. inicie o projeto
 **Terminal 1**:
 ```bash
 npm run watch:src

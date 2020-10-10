@@ -36,23 +36,13 @@ winget install -e --id MariaDB.Server
 ### Start the project
 1. Clone this repo
 ```bash
-git clone https://github.com/fabsoftwareifrs/node-quickstart.git
+git clone https://github.com/fabsoftwareifrs/node-quickstart.git myproject
 ```
-2. Enter the project folder and delete the .git directory
-```bash
-cd node-quickstart
-rm -Rf .git
-```
-3. Rename the folder
-```bash
-cd ..
-mv node-quickstart myproject
-```
-4. Enter the project and create the .env
+2. Enter the project folder and delete the .git directory and create .env
 ```bash
 cd myproject
+rm -Rf .git
 cp .env.example .env
-code .env
 code .env
 ```
 **.env**
@@ -75,7 +65,7 @@ EMAIL_USER=
 EMAIL_PASSWORD=
 ```
 
-5. Setup your database:
+3. Setup your database:
 ```bash 
 mysql -u root -p # enter your root password
 ```
@@ -84,18 +74,18 @@ MariaDB [(none)]> CREATE DATABASE mydatabase CHARACTER SET utf8mb4 COLLATE utf8m
 MariaDB [(none)]> exit;
 ```
 
-6. install all dependencies
+4. install all dependencies
 ```bash
 npm i
 ```
 
-7. Migrate the database:
+5. Migrate the database:
 ```
 npx sequelize-cli db:migrate
 ```
 
 
-8. start the project
+6. start the project
 
 **Terminal 1**:
 ```bash
