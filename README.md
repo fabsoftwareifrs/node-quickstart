@@ -1,5 +1,5 @@
 # Quickstart
-<div style="text-align: right;">[<a href="https://github.com/fabsoftwareifrs/node-quickstart/blob/main/README.md">🇺🇸 EN</a> |<a href="https://github.com/fabsoftwareifrs/node-quickstart/blob/main/README.pt-br.md">🇧🇷 PT-BR</a>]</div>
+<p align="right;">[<a href="https://github.com/fabsoftwareifrs/node-quickstart/blob/main/README.md">🇺🇸 EN</a> |<a href="https://github.com/fabsoftwareifrs/node-quickstart/blob/main/README.pt-br.md">🇧🇷 PT-BR</a>]</p>
 
 This is a basic structure for a Node.js with Sequelize, Apollo, MySQL, webpack, babel, JWT, express and ESLint (standart js).
 
